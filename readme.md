@@ -1,4 +1,10 @@
-## Initial installations
+FastAPI deployment
+==================
+
+# Own adaptations 
+- Force https connection
+
+## Initial installation
  - Install supervisor and other dependencies
     `sudo apt install python3-venv supervisor nginx`
 - setup virtual env
