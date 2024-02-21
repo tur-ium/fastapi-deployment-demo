@@ -1,10 +1,8 @@
 from typing import Union
 
 from fastapi import FastAPI
-from fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware
 
 app = FastAPI()
-app.add_middleware(HTTPSRedirectMiddleware)
 
 @app.get("/")
 def read_root():
